@@ -4,13 +4,7 @@ ifeq ($(TARGET_SIMULATOR),true)
   $(error This makefile must not be included when building the simulator)
 endif
 
-ifeq ($(WPA_SUPPLICANT_VERSION),VER_0_6_X)
-    WPA_SUPPL_DIR = external/wpa_supplicant_6/wpa_supplicant
-endif
-
-ifeq ($(WPA_SUPPLICANT_VERSION),VER_0_8_X)
-    WPA_SUPPL_DIR = external/wpa_supplicant_8/wpa_supplicant
-endif
+WPA_SUPPL_DIR = external/wpa_supplicant_8/wpa_supplicant
 
 include $(WPA_SUPPL_DIR)/android.config
 
