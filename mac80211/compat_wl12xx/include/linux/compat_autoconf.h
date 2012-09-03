@@ -2,7 +2,7 @@
 #define COMPAT_AUTOCONF_INCLUDED
 /*
  * Automatically generated C config: don't edit
- * Mon Sep  3 12:45:17 CDT 2012 
+ * Mon Sep  3 14:32:11 CDT 2012 
  * compat-wireless-2.6: ol_R5.SP2.04
  * linux-2.6: ol_R5.SP2.04
  */
